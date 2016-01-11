@@ -1268,6 +1268,5 @@ function curry$(f, bound){
         _curry.call(context, params) : f.apply(context, params);
     } : f;
   };
-  return _curry();
-  
+  return _curry(); 
 }
